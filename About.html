@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+
+<head>
+  <meta charset="utf-8" />
+  <title>About Us | GPT Software</title>
+
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&amp;family=Nunito+Sans:wght@300;600;700;800;900&amp;display=swap"
+    rel="stylesheet" />
+
+  <!-- Color Switcher Mockup -->
+  <link href="css/color-switcher-design.css" rel="stylesheet" />
+
+  <!-- Color Themes -->
+  <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet" />
+
+  <link rel="shortcut icon" href="images/log.jpeg" type="image/x-icon" />
+  <link rel="icon" href="images/log.jpeg" type="image/x-icon" />
+
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+  <style>
+    .theme-btn.btn-style-one {
+      background: linear-gradient(to right,
+          rgb(125, 181, 249),
+          rgb(145, 8, 94));
+      /* Default gradient */
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.5s ease-in-out;
+    }
+
+    .theme-btn.btn-style-one:hover {
+      background: linear-gradient(to right, rgb(109, 166, 236), blue);
+      /* Hover gradient effect */
+    }
+
+    @media (max-width: 766px) {
+      .nav-outer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar-header {
+        order: 1;
+      }
+
+      .mobile-nav-toggler {
+        order: 2;
+      }
+
+      .navbar-header .navbar-toggler {
+        border: none;
+        background: none;
+      }
+    }
+
+    /*container*/
+    .container1 {
+      width: 90%;
+      margin: 50px auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      width: 22%;
+      min-width: 250px;
+      text-align: center;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .container2 {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    /* h2 {
+			color: rgb(187, 18, 18);
+		
+			display: inline-block;
+			padding-bottom: 5px;
+			text-align: center;
+		} */
+
+    .director-section {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .director-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    .director-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .title {
+      color: rgb(11, 11, 11);
+      font-size: 14px;
+    }
+
+    /* .social-icons {
+			margin-top: 10px;
+		}
+
+		.social-icons a {
+			display: inline-block;
+			margin: 0 5px;
+			color: white;
+			background: #ff9800;
+			padding: 10px;
+			border-radius: 5px;
+			transition: 0.3s;
+		}
+
+		.social-icons a:hover {
+			background: #4d00e6;
+		} */
+
+    .social-icons a:hover {
+      background: #4d00e6;
+    }
+
+    .directo-section {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .directo-card {
+      background: #fff;
+      padding: 20px;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 260px;
+    }
+
+    .directo-card img {
+      width: 80%;
+      border-radius: 10px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .title {
+      color: rgb(11, 11, 11);
+      font-size: 14px;
+    }
+
+    /*container*/
+    .container1 {
+      width: 90%;
+      margin: 50px auto;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+      width: 22%;
+      min-width: 250px;
+      text-align: center;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    .icon {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .container2 {
+      width: 80%;
+      margin: 50px auto;
+    }
+
+    /* h2 {
+            color: rgb(187, 18, 18);
+       
+            display: inline-block;
+            padding-bottom: 5px;
+            text-align: center;
+        } */
+
+    .director-section {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .director-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 300px;
+    }
+
+    .director-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .name {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+
+    .title {
+      color: rgb(11, 11, 11);
+      font-size: 14px;
+    }
+
+
+
+
+
+    /* .social-icons {
+            margin-top: 10px;
+        }
+ 
+        .social-icons a {
+            display: inline-block;
+            margin: 0 5px;
+            color: white;
+            background: #ff9800;
+            padding: 10px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+ 
+        .social-icons a:hover {
+            background: #4d00e6;
+        } */
+  </style>
+</head>
+
+<body class="hidden-bar-wrapper">
+  <div class="page-wrapper">
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Main Header-->
+    <header class="main-header header-style-one">
+      <!-- Header Top -->
+      <div class="header-top">
+        <div class="auto-container">
+          <div class="clearfix">
+            <!-- Top Left -->
+            <div class="top-left">
+              <!-- Info List -->
+              <ul class="info-list">
+                <li>
+                  <a href="mailto:info@gptsoftwares.in"><span class="icon flaticon-email"
+                      style="font-size: 19px"></span>info@gptsoftwares.in
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:+919518355613"><span class="icon flaticon-telephone" style="font-size: 19px"></span>
+                    +91 951 835 5613
+                  </a>
+                  <a href="tel:+919689015530">+91 968 901 5530</a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Top Right -->
+            <div class="top-right pull-right">
+              <!-- Social Box -->
+              <ul class="social-box">
+                <li>
+                  <a href="https://www.linkedin.com/company/gpt-software-llp/posts/?feedView=all"
+                    class="fa fa-linkedin"></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/gptsoftware/?igsh=amRrZm9hNnFvdjUx#" class="fa fa-instagram"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Header-Upper-->
+      <div class="header-upper">
+        <div class="auto-container clearfix responsive">
+          <div class="pull-left logo-box" style="padding-left: 1px">
+            <div class="logo">
+              <a href="index.html"><img src="./images/log.png" alt="logo" title="" style="width: 128px" /></a>
+            </div>
+          </div>
+
+          <div class="nav-outer clearfix">
+            <!--Mobile Navigation Toggler-->
+            <div class="mobile-nav-toggler">
+              <span class="icon flaticon-menu"></span>
+            </div>
+            <!-- Main Menu -->
+            <nav class="main-menu navbar-expand-md">
+              <div class="navbar-header">
+                <!-- Toggle Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              </div>
+
+              <div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
+                <ul class="navigation clearfix">
+                  <li class="">
+                    <a href="index.html">Home</a>
+                  </li>
+
+                  <li class="">
+                    <a href="About.html">About Us</a>
+                  </li>
+                  <li>
+                    <a href="services.html">Services</a>
+
+
+                  </li>
+                  <li><a href="clients.html">Our Clients</a></li>
+
+
+                  <li><a href="career.html">Career</a></li>
+
+                  <li>
+                    <a href="conatct.html">Contact us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+
+            <!-- Main Menu End-->
+            <div class="outer-box clearfix">
+              <!-- Quote Btn -->
+              <div class="btn-box">
+                <a href="website-design-and-digital-marketing-company-in-pune.html"
+                  class="theme-btn btn-style-one"><span class="txt">Get In Touch</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End Header Upper-->
+
+      <!-- Sticky Header  -->
+      <div class="sticky-header">
+        <div class="auto-container clear" style="display: flex">
+          <div class="logo pull-left">
+            <a href="index.html" title=""><img src="images/log.png" alt="" title="" style="width: 128px" /></a>
+          </div>
+
+          <div class="pull-right">
+            <nav class="main-menu"></nav>
+
+            <div class="outer-box clearfix"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Menu  -->
+      <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn">
+          <span class="icon flaticon-multiply"></span>
+        </div>
+
+        <nav class="menu-box">
+          <div class="nav-logo">
+            <a href="index.html"><img src="images/log.png" alt="" title="" /></a>
+          </div>
+          <div class="menu-outer">
+            <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+          </div>
+        </nav>
+      </div>
+      <!-- End Mobile Menu -->
+    </header>
+
+    <!-- ===== ABOUT PAGE ===== -->
+    <div class="page" id="page-about">
+
+      <section class="page-title">
+        <div class="pattern-layer-one" style="background-image: url(images/background/pattern-16.png)"></div>
+        <div class="auto-container">
+          <h2>About us</h2>
+          <ul class="page-breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li>About us</li>
+          </ul>
+        </div>
+      </section>
+      <section class="about-mission">
+        <div class="mission-text">
+          <div class="section-label">Our Mission</div>
+          <h2>Dedicated to Your<br>Digital Success</h2>
+          <p>GPT Software is a leading software company dedicated to crafting innovative solutions that drive business
+            growth and efficiency. With a focus on quality, creativity, and client satisfaction, we specialize in
+            developing customized software tailored to meet the unique needs of each organization.</p>
+          <div class="mission-highlights">
+            <div class="mh">
+              <div class="mh-dot"></div>
+              <p>Expertly crafted web and mobile applications with end-to-end support and guidance.</p>
+            </div>
+            <div class="mh">
+              <div class="mh-dot"></div>
+              <p>Comprehensive services including domain registration, hosting, and maintenance.</p>
+            </div>
+            <div class="mh">
+              <div class="mh-dot"></div>
+              <p>Customized software solutions tailored to individual business needs.</p>
+            </div>
+            <div class="mh">
+              <div class="mh-dot"></div>
+              <p>Commitment to client satisfaction through timely delivery and cost-effective solutions.</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div style="background:var(--light);border-radius:20px;padding:36px">
+            <h3 style="font-size:20px;font-weight:800;color:var(--navy);margin-bottom:24px">Our Distinct Approach</h3>
+            <div style="display:flex;flex-direction:column;gap:16px">
+              <div style="display:flex;gap:12px;align-items:flex-start">
+                <div
+                  style="width:28px;height:28px;background:var(--navy);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0">
+                  01</div>
+                <p style="font-size:14px;color:var(--muted);line-height:1.6">Unique and custom designs that align with
+                  client business objectives</p>
+              </div>
+              <div style="display:flex;gap:12px;align-items:flex-start">
+                <div
+                  style="width:28px;height:28px;background:var(--navy);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0">
+                  02</div>
+                <p style="font-size:14px;color:var(--muted);line-height:1.6">Websites that are visually stunning and
+                  achieve online goals</p>
+              </div>
+              <div style="display:flex;gap:12px;align-items:flex-start">
+                <div
+                  style="width:28px;height:28px;background:var(--navy);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0">
+                  03</div>
+                <p style="font-size:14px;color:var(--muted);line-height:1.6">Services from website development to ERP &
+                  CRM solutions</p>
+              </div>
+              <div style="display:flex;gap:12px;align-items:flex-start">
+                <div
+                  style="width:28px;height:28px;background:var(--navy);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700;color:var(--accent);flex-shrink:0">
+                  04</div>
+                <p style="font-size:14px;color:var(--muted);line-height:1.6">Honest, down-to-earth approach in all
+                  client
+                  interactions</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="values-section">
+        <div class="section-header">
+          <div class="section-label" style="color:#544C9E">Our Values</div>
+          <h2 class="section-title" style="color:#fff">What Drives Us Every Day</h2>
+        </div>
+        <div class="values-grid">
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-bulb"></i></div>
+            <h3>Innovation</h3>
+            <p>We embrace new technologies and approaches to deliver solutions that keep our clients ahead of the curve.
+            </p>
+          </div>
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-shield-check"></i></div>
+            <h3>Quality</h3>
+            <p>Every line of code, every design decision, every delivery goes through rigorous quality checks.</p>
+          </div>
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-users"></i></div>
+            <h3>Client-First</h3>
+            <p>Your success is our success. We go the extra mile to ensure every client is delighted with the outcome.
+            </p>
+          </div>
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-clock"></i></div>
+            <h3>Reliability</h3>
+            <p>On-time delivery with transparent communication — we keep our promises, always.</p>
+          </div>
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-heart"></i></div>
+            <h3>Integrity</h3>
+            <p>Honest pricing, honest timelines, honest feedback. We build trust with every interaction.</p>
+          </div>
+          <div class="vcard">
+            <div class="vcard-icon"><i class="ti ti-trending-up"></i></div>
+            <h3>Growth</h3>
+            <p>We grow together with our clients — long-term partnerships built on continuous improvement.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="team-section">
+        <div class="section-header">
+          <div class="section-label">Leadership</div>
+          <h2 class="section-title">The People Behind GPT Software</h2>
+        </div>
+        <div class="team-grid">
+          <div class="team-card">
+            <div class="team-photo">
+              <img src="./images/team/Amit.png" alt="">
+            </div>
+            <div class="team-info">
+              <h3>Amit Sonar</h3>
+              <p>Visionary technologist with 7+ years building cutting-edge software solutions.</p><span
+                class="role-badge">Founder & CTO</span>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-photo">
+              <img src="./images/team/AbhishekSir.webp" alt="">
+            </div>
+            <div class="team-info">
+              <h3>Abhishek Sonar</h3>
+              <p>Business strategist driving growth and client relationships at GPT Software.</p><span
+                class="role-badge">Founder & CEO</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section">
+        <h2>Let's Build Together</h2>
+        <p>Partner with a team that treats your business like their own. Reach out today.</p>
+        <a href="https://gptsoftware.in/conatct.html" target="_blank" class="btn-white"><i
+            class="ti ti-arrow-right"></i>
+          Get In Touch</a>
+      </section>
+
+
+
+
+
+
+
+
+      <!-- Main Footer -->
+      <footer class="main-footer">
+        <div class="pattern-layer-one" style="background-image: url(images/background/pattern-7.png)"></div>
+        <div class="pattern-layer-two" style="background-image: url(images/background/pattern-8.png)"></div>
+        <!--Waves end-->
+        <div class="auto-container">
+          <!--Widgets Section-->
+          <div class="widgets-section">
+            <div class="row clearfix">
+              <!-- Column -->
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-7 col-md-6 col-sm-12">
+                    <div class="footer-widget logo-widget">
+                      <div class="logo">
+                        <a href="index.html"><img src="images/log.png" alt="" width="70%" /></a>
+                      </div>
+                      <!-- <div class="text">Every business has a beginning, and this is where you talk about yours. People want to know what opportunity you saw or how your passion led to the creation of something new. Talk about your roots–people want to know you have some.</div> -->
+                      <!-- Social Box -->
+                      <ul class="social-box">
+                        <li>
+                          <a href="https://www.linkedin.com/in/gpt-software-bb44b1308/" class="fa fa-linkedin"></a>
+                        </li>
+                        <li>
+                          <a href="https://www.instagram.com/gptsoftware?igsh=amRrZm9hNnFvdjUx"
+                            class="fa fa-instagram"></a>
+                        </li>
+                        <!-- <li><a href="#" class="fa fa-google"></a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-5 col-md-6 col-sm-12">
+                    <div class="footer-widget links-widget">
+                      <h5>Our Pages</h5>
+                      <ul class="list-link">
+                        <li><a href="index.html">Home</a></li>
+                        <li>
+                          <a href="About.html">About Us</a>
+                        </li>
+
+
+                        <li><a href="clients.html">Our Clients</a></li>
+                        <li><a href="career.html">Career</a></li>
+                        <li>
+                          <a href="conatct.html">Contact Us</a>
+                        </li>
+
+                        <!-- <li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Terms and Conditions</a></li> -->
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="big-column col-lg-6 col-md-12 col-sm-12">
+                <div class="row clearfix">
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget links-widget">
+                      <h5>Our Services</h5>
+                      <ul class="list-link">
+                        <li>
+                          <a href="website-design.html">Website Design</a>
+                        </li>
+                        <li>
+                          <a href="software-development.html">Software Development</a>
+                        </li>
+                        <li>
+                          <a href="web-development-company-in-pune.html">Dynamic Website</a>
+                        </li>
+                        <li>
+                          <a href="e-commerce-website-design.html">E-Commerce Website</a>
+                        </li>
+                        <li>
+                          <a href="website-maintenance.html">Website Maintenance</a>
+                        </li>
+
+                        <li>
+                          <a href="search-engine-marketing-seo.html">Search engine Marketing(SEO)</a>
+                        </li>
+                        <!-- <li><a href="media.php">Social Media Marketing</a></li> -->
+                        <!-- <li><a href="whatsaap.php">Bulk What’s App Marketing</a></li> -->
+
+                        <!-- <li><a href="sms.php">Bulk SMS Marketing</a></li> -->
+                        <li>
+                          <a href="domain-and-hosting-services-in-pune.html">Domain And Hosting</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <!-- Footer Column -->
+                  <div class="footer-column col-lg-6 col-md-6 col-sm-12">
+                    <div class="footer-widget contact-widget">
+                      <h5>Contact Us</h5>
+                      <ul>
+                        <li>
+                          <span class="icon flaticon-placeholder-2"></span>
+                          <strong>Address</strong>
+                          Office No:-517 Tejas Imperial, Wakad, Near Wakad Bridge, Maharashtra , Pune 411057
+                        </li>
+                        <li>
+                          <span class="icon flaticon-phone-call"></span>
+                          <strong>Phone</strong>
+                          <a href="tel: +919518355613"> +91 951 835 5613</a>
+                          <br />
+                          <a href="tel: +919689015530"> +91 968 901 5530</a>
+                        </li>
+                        <li>
+                          <span class="icon flaticon-email-1"></span>
+                          <strong>E-Mail</strong>
+                          <a href="mailto:info@gptsoftware.in ">info@gptsoftware.in
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer Bottom -->
+          <div class="footer-bottom">
+            <div class="auto-container">
+              <div class="row clearfix">
+                <!-- Column -->
+                <div class="column col-lg-7 col-md-12 col-sm-12">
+                  <div class="">
+                    <p class="text-center" style="font-size: 17px; color: aliceblue">
+                      Website Design-Development and Maintenance by
+                      <a href="index.html" style="color: black"><b><i><span style="
+                                color: #fdfdfd;
+                                font-size: 20px;
+                                font-family: sans-serif;
+                              ">GPT Software</span></i></b></a>
+                    </p>
+                  </div>
+                </div>
+                <!-- Column -->
+                <!-- <div class="column col-lg-6 col-md-12 col-sm-12">
+								<ul class="footer-nav">
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="service.php">Services</a></li>
+									<li><a href="privacy.php">Privacy</a></li>
+								</ul>
+							</div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <style type="text/css">
+          #myBtn {
+            position: fixed;
+            bottom: 80px;
+            right: 5px;
+            z-index: 99;
+            font-size: 25px;
+            border: none;
+            background-color: #80cd27;
+            color: white;
+            cursor: pointer;
+            height: 55px;
+            width: 55px;
+            box-shadow: 0 0 5px #232323;
+            padding: 0px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+
+          #myBtn1 {
+            position: fixed;
+            bottom: 80px;
+            left: 5px;
+            z-index: 99;
+            font-size: 25px;
+            border: none;
+            background-color: #275acd;
+            color: white;
+            cursor: pointer;
+            height: 55px;
+            width: 55px;
+            box-shadow: 0 0 5px #232323;
+            padding: 0px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        </style>
+
+        <a href="https://wa.me/919518355613?text=Hello,%20I%20am%20interested%20in%20your%20services.%20Share%20with%20me%20more%20details%20and%20call%20me."
+          target="_blank">
+          <button id="myBtn">
+            <i class="fa fa-whatsapp" aria-hidden="true"></i>
+          </button>
+        </a>
+
+        <a href="tel:+919518355613" target="_blank">
+          <button id="myBtn1"><i class="fa fa-phone"></i></button>
+        </a>
+      </footer>
+    </div>
+    <!--End pagewrapper-->
+
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target="html">
+      <span class="fa fa-arrow-up"></span>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.paroller.min.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/nav-tool.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/color-settings.js"></script>
+</body>
+
+</html>
